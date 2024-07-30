@@ -1,0 +1,57 @@
+1. generate code -> on going
+2. mobile version
+3. hero page dark overlaay -> not complete
+4. logo hd
+5. foto hd projects, hero page
+6. banner running (nyambung)
+7. button chat
+8. font
+9. hover navbar
+
+to do list web:
+
+*root
+	-> responsive design all device
+	-> jenis font (sans/poppins, dll)
+	-> penyesuaian warna
+	-> besar/kecil content
+	-> animate dari masing2 page
+	-> jarak,dll untuk semua device
+	-> hover effect
+	-> Web Articel
+
+1. hero page
+	-> font
+	-> navbar home, dll
+	-> font size
+	-> posisi text yusra, logistic, dll
+
+2. About us
+	-> ukuran content
+	-> garis pada image container
+	-> teks size
+
+3. Our Service
+	->
+
+4. Out Partners
+	-> running logo masih nyangkut
+
+5. Projects
+	-> undrile di teks Projects
+	-> text di dalam image
+	-> container flex X, min 5 content
+
+6. reviews
+	-> 
+	
+7. footer
+	->
+
+*chat
+	-> effect di chat button
+
+
+usage for tailwindcss code
+1. text-balance
+2. text-pretty
