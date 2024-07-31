@@ -3,6 +3,12 @@ module.exports = {
   content: ["index.html"],
   theme: {
     extend: {
+      screens:{
+        'xxs': '360px',
+        'xs': '480px',
+        'lgs': '1000px',
+        'cs': {'min': '360px', 'max': '1000px'},
+      },
       boxShadow: {
         // 0 3px -> posisi, 18px -> blur, 5px -> spread
         'img-container': '0 3px 18px 5px rgb(0, 0, 0, 30%)',
@@ -22,7 +28,9 @@ module.exports = {
       fontFamily: {
         // 'poppins': ['Poppins', 'sans-serif'],
         // 'body': ['Open Sans'],
-        outfit: ['Outfit', 'sans-serif'], 
+        outfit: ['Outfit', 'sans-serif'],
+        jost: ['Jost'],
+        inter: ['Inter', 'sans-serif']
       },
       fontWeight: {
         'kurus': 100,

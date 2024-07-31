@@ -4,3 +4,6 @@ https://michalsnik.github.io/aos/
 https://github.com/michalsnik/aos
 
 https://www.figma.com/exit?url=https%3A%2F%2Fthemes.pixelwars.org%2Flogistica%2Fdemo-01%2Fabout%2F
+
+
+leading -> spasi text per line

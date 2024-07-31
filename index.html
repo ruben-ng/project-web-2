@@ -11,6 +11,8 @@
     <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> -->
     <!-- <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <script src="js/script.js"></script>
     <style>
@@ -25,34 +27,37 @@
         }
     </style>
 </head>
-<body class="scroll-smooth scroll-bar overflow-y font-dsans">
+<body class="scrosll-smooth scroll-bar font-dsans">
+    <!-- <div class="container min-h-screen mx-auto px-4 bg-slate-500">
+
+    </div> -->
 
     <!-- HERO PAGE -->
-    <section class="bg-slate-400 bg-covser h-screen relative sobject-cover"> <!-- ssdstyle="background-image: url(assets/image/hero-background.png)" -->
+    <section class="bg-slate-400 h-screen relative">
         <img src="assets/image/hero-background.png" alt="" class="absolute inset-0 w-full h-full object-cover">
         <div class="absolute inset-0 bg-black bg-opacity-70"></div>
-        <div class="h-full relative">
-            <nav class="absolute backdrop-blur-sm backdrop-brightness-15s0 bg-white/10 flex w-full items-center justify-between py-2 px-14 font-sans font-medium text-white">
-                <img src="assets/icons/logo.png" alt="Logo" class="cursor-pointer pt-3">
-                <ul class=" flex gap-5">
-        
-                        <!-- Animate untuk hover -->
-                    <li><a href="" class="hover:border-b-2 hover:text-lime-300 py-1 px-2">Home</a></li>
-                    <li><a href="" class="hover:border-b-2 hover:text-blue-300 py-1 px-2">About</a></li>
-                    <li><a href="" class="hover:border-b-2 py-1 px-2">What we do</a></li>
-                    <li><a href="" class="hover:border-b-2 py-1 px-2">Portfolio</a></li>
-                    <li><a href="" class="hover:border-b-2 py-1 px-2">Contact us</a></li>
-                </ul>
+        <div class="container mx-auto xxs:px-4 px-8 pt-3 h-full relative">
+            <nav class="relative border-b-[0.1px] border-slate-300 border-opacity-25 flex w-full items-center justify-between">
+                <img src="assets/icons/logo.png" alt="Logo" class="cursor-pointer xxs:w-10 max-w-14">
+                    <ul class=" text-white font-jost font-medium tracking-wider bg-slate-400 cs:hiddesn ">
+                        <li class="lgs:inline-block"><a href="" class="no-underline hover:border-b-2 hover:text-lime-300 py-1 px-2 uppercase bg-slate-500">Home</a></li>
+                        <li class="lgs:inline-block"><a href="" class="no-underline hover:border-b-2 hover:text-blue-300 py-1 px-2 uppercase">About us</a></li>
+                        <li class="lgs:inline-block"><a href="" class="no-underline hover:border-b-2 hover:text-lime-300 py-1 px-2 uppercase">What we do</a></li>
+                        <li class="lgs:inline-block"><a href="" class="no-underline hover:border-b-2 hover:text-lime-300 py-1 px-2 uppercase">Portfolio</a></li>
+                        <li class="lgs:inline-block"><a href="" class="no-underline hover:border-b-2 hover:text-blue-300 py-1 px-2 uppercase">Contact us</a></li>
+                    </ul>
+                
+                <button class="lgs:hidden"><i class="fa-solid fa-bars fa-xl" style="color: #ffffff;"></i></button>
             </nav>
-            <div class="bg-yellow-2s00 flex flex-col h-full justify-center gap-10">
-                <h1 class="text-9xl tracking-wide font-bold text-center text-[#D9B01C]">YUSRA</h1>
-                <p class="text-4xl font-bold text-white text-center">YOUR LOGISTIC, INFORMATION TECHNOLOGY, DOCUMENT AGENCY PARTNER</p>
+            <div class="flex flex-col h-fusll justify-center gap-10 font-inter bgs-black">
+                <h1 class="text-6xl tracking-wisde font-semibold text-cesnter text-[#D9B01C]">YUSRA<br>GROUP</h1>
+                <p class=" text-white">Satu Solusi untuk Semua Kebutuhan Dokumen, Teknologi, dan Logistik Anda</p>
             </div>
         </div>
     </section>
 
     <!-- ABOUT PAGE -->
-    <section class="h-screen flex flex-col py-6 px-14 bg-[image:linear-gradient(to_right,#D9B01C_0%,#D9B01C_40%,#1F1A1A_40%,#1F1A1A_100%)]">
+    <!-- <section class="h-screen flex flex-col py-6 px-14 bg-[image:linear-gradient(to_right,#D9B01C_0%,#D9B01C_40%,#1F1A1A_40%,#1F1A1A_100%)]">
         <div class="w-full flex justify-center text-5xl">
             <h2 class=" text-white font-thin">ABOUT <span class="text-[#D9B01C] font-medium">US</span></h2>
         </div>
@@ -65,17 +70,17 @@
                 </p>
             </div>
          </div>
-    </section>
+    </section> -->
 
     <!-- SERVICES PAGE -->
-    <section class="bg-[#171714] hs-[50rem] px-52 relative flex flex-col items-center justify-center gap-7 font-outfit">
+    <!-- <section class="bg-[#171714] hs-[50rem] px-52 relative flex flex-col items-center justify-center gap-7 font-outfit py-6">
         <div class="flex justify-center">
             <h2 class="text-[#FFFFF0] text-7xl font-thin tracking-wide ">OUR<span class="text-[#D4AF37] text-7xl font-bold-ot ml-3 tracking-wide">SERVICE</span></h2> 
         </div>
-        <div class="bg-slatse-500 h-full w-full msax-w-xl">
-            <div class="w-full flex rounded-3xl">
+        <div class="bg-slatse-500 h-full w-full">
+            <div class="w-full flex gap-5">
                 <div class=" w-1/2 ">
-                    <img src="assets/image/doc-2.jpg" alt="" class="p-5 " data-aos="fade-right" data-aos-duration="2000" width="1200" height="1200">
+                    <img src="assets/image/doc-2.jpg" alt="" class="p-3 " data-aos="fade-right" data-aos-duration="2000" width="1300" height="1000">
                 </div>
                 <div class="w-1/2 flex flex-col text-pretty text-white ">
                     <h2 class="font-bold tracking-wide text-xl">Documents Agency</h2>
@@ -85,26 +90,38 @@
                     </p>
                 </div>
             </div>
-            <div class="bg-[#3A302sD] w-full h-s44 flex rounded-3xl">
+            <div class="bg-[#3A302D] w-full flex gap-5 items-center justify-center text-center">
                 <div class="w-1/2 flex flex-col text-pretty text-white">
                     <h2 class="font-bold tracking-wide text-xl">Transportation Logistics</h2>
-                    <p class="font-light text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    <p class="font-thin text-base tracking-wider from-neutral-200">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
                 <div class="w-1/2">
-                    <img src="assets/image/contrail-ocean-ship-carrying-container-1300x1300.jpg" alt="" class="p-5" data-aos="fade-left" data-aos-duration="2000" width="1300" height="1300">
+                    <img src="assets/image/contrail-ocean-ship-carrying-container-1300x1300.jpg" alt="" class="p-3" data-aos="fade-left" data-aos-duration="2000" width="1300" height="1300">
                 </div>
             </div>
-            <div class="w-full flex rounded-3xl">
+            <div class="w-full flex gap-5">
                 <div class=" w-1/2">
-                    <img src="assets/image/it-3.jpg" alt="" class="p-5" data-aos="fade-right" data-aos-duration="2000" width="1300" height="1300">
+                    <img src="assets/image/it-3.jpg" alt="" class="p-3" data-aos="fade-right" data-aos-duration="2000" width="1300" height="1300">
                 </div>
                 <div class="w-1/2 flex flex-col text-pretty text-white">
                     <h2 class="font-bold tracking-wide text-xl ">Information Technology</h2>
                     <p class="font-light text-lg ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </div>
+        <div class="absolute h-[1000px] w-12 mt-20 flex justify-center ">
+            <span class="h-full bg-[#D9B01C] w-[1px] z-20"></span>
+            <div class="absolute h-full flex flex-col justify-between items-center">
+                <span class="h-2 w-2 rounded-full bg-[#D9B01C] ring-offset-[11px] ring-offset-[#3A302D] ring-1 ring-[#D9B01C]"></span>
+                <div class="h-10 w-10 rounded-full border border-[#D9B01C] flex items-center justify-center">
+                    <span class="h-2 w-2 bg-[#D9B01C] rounded-full"></span>
+                </div>
+                <div class="h-10 w-10 rounded-full border border-[#D9B01C] flex items-center justify-center">
+                    <span class="h-2 w-2 bg-[#D9B01C] rounded-full"></span>
                 </div>
             </div>
         </div>
@@ -161,14 +178,12 @@
                 </div>
             </div>
         </div>
-        <span class="h-10 w-10 rounded-full bg-[#D9B01C] ring-offset-[11px] ring-offset-[#3A302D] ring-1 ring-[#D9B01C]"></span> -->
-
         <span class="h-10 w-10 rounded-full bg-[#D9B01C] ring-offset-[11px] ring-offset-[#3A302D] ring-1 ring-[#D9B01C]"></span>
 
-    </section>
+    </section> -->
 
     <!-- CLIENTS PAGE -->
-    <section class="bg-white flex flex-col px-20 py-10 items-center text-[#D4AF37]">
+    <!-- <section class="bg-white flex flex-col px-20 py-10 items-center text-[#D4AF37]">
         <div class="pb-4">
             <h2 class="font-light text-7xl tracking-tight">Our<span class="text-7xl font-bold ml-3 tracking-wide">Partners</span></h2>
         </div>
@@ -197,10 +212,10 @@
                 </ul>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- PROJECTS PAGE -->
-    <section class="py-10 px-28 h-screen bg-[#050000]">
+    <!-- <section class="py-10 px-28 h-screen bg-[#050000]">
         <h2 class="font-bold tracking-wide text-4xl text-[#D9B01C] sborder-b-4 sborder-[#D9B01C] ">PROJECTS</h2>
         <div class=" flex justify-between items-center h-full">
             <div class="hover:bg-slate-400 hover:scale-105 duration-300 cursor-pointer">
@@ -208,7 +223,6 @@
             </div>
             <div class="hover:bg-slate-400 hover:scale-105 duration-300 cursor-pointer">
                 <img src="assets/image/2.png" alt="">
-                <!-- <p class="absolute inset-0 flex items-center justify-center text-white text-xl font-bold">Text 1</p> -->
             </div>
             <div class="hover:bg-slate-400 hover:scale-105 duration-300  cursor-pointer">
                 <img src="assets/image/3.png" alt="">
@@ -217,16 +231,14 @@
                 <img src="assets/image/4.png" alt="">
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- REVIEWS PAGE -->
-    <section class="bg-[#F6F6F9] bsg-[#D9B01C] relative font-light flex flex-col py-7 px-40 ">
+    <!-- <section class="bg-[#F6F6F9] bsg-[#D9B01C] relative font-light flex flex-col py-7 px-40 ">
         <div class="flex justify-center">
             <h2 class=" text-4xl font-medium tracking-widest italic text-[#D9B01C] ">Reviews</h2>
         </div>
         
-
-        <!-- cards reviews -->
         <div class=" text-censter flex items-center gap-5 p-3 overflow-x-auto scroll-bar">
             <div class="bg-[#F9F9FA] rounded-xl p-3 shadow-lg min-w-[300px]">
                 <p class="text-balance pb-4 font-light text-[#5E7087] font-sanss"><i class="fa fa-quote-left" aria-hidden="true"></i>Kami telah bekerja dengan PT Yusra Bintang Jasa selama lebih dari setahun, dan hasilnya selalu luar biasa. 
@@ -298,12 +310,12 @@
                         Mereka tidak hanya memahami visi kami tetapi juga memberikan ide-ide inovatif yang meningkatkan hasil akhir secara signifikan. 
                     Kami akan terus bekerja dengan mereka di masa depan."</p>
                 </div>
-            </div> -->
+            </div>
         </div>
-    </section>
+    </section> -->
    
     <!-- button chat -->
-    <aside id="popup_trigger" class=" bg-[#D9B01C] fixed z-30 bottom-5 right-10 p-3 rounded-full shadow-lg hover:scale-105 duration-300  cursor-pointer hover:scale-105 hover:bg-blue-500">
+    <!-- <aside id="popup_trigger" class=" bg-[#D9B01C] fixed z-30 bottom-5 right-10 p-3 rounded-full shadow-lg hover:scale-105 duration-300  cursor-pointer hover:scale-105 hover:bg-blue-500">
         <img src="assets/icons/chat 1.png" alt="icon-chat" class="">
     </aside>
     <aside id="popup_container" class=" bg-white fixed bottom-24 right-10 py-5 text-black text-sm font-semibold font-sans tracking-wide rounded-lg shadow-cht-container hidden">
@@ -319,10 +331,10 @@
             <img src="assets/icons/whatsapp-cht.png" alt="whatsapp">
             <span class="">Whatsapp</span>
         </a>
-    </aside>
+    </aside> -->
     
     <!-- FOOTER -->
-    <footer class="bg-black px-60 pt-20 space-y-20 font-sans">
+    <!-- <footer class="bg-black px-60 pt-20 space-y-20 font-sans">
         <div class="items-center justify-center flex flex-wrap text-[#FFDD43] gap-5">
             <img src="assets/icons/logo.png" alt="Logo" class="cursor-pointer">
             <span class="cursor-pointer text-pretty font-semibold text-4xl tracking-widest">YUSRA</span>
@@ -340,11 +352,11 @@
         <div class="text-center text-white font-light tracking-wider text-lg">
             &copy; 2024 Document Agency. All rights reserved.
         </div>
-    </footer>
+    </footer> -->
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
-    </script>
+    </script> -->
 </body>
 </html>
