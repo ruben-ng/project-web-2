@@ -65,45 +65,55 @@
     </section>
 
     <!-- SERVICES PAGE -->
-    <section class="bg-[#171714] h-screen px-32 relative">
-        <div class="flex justify-center py-4">
-            <h2 class="text-[#FFFFF0] text-7xl tracking-wide">OUR<span class="text-[#D4AF37] text-7xl font-bold ml-3 tracking-wide">SERVICE</span></h2>
-            <!-- line mid -->
-            <!-- <span class="absolute border h-full"></span> -->
+    <section class="bg-[#171714] h-[50rem] px-32 relative flex flex-col items-center justify-center gap-7">
+        <div class="flex justify-center ">
+            <h2 class="text-[#FFFFF0] text-7xl tracking-wide">OUR<span class="text-[#D4AF37] text-7xl font-bold ml-3 tracking-wide">SERVICE</span></h2> 
         </div>
-        
-        <div class="flex flex-col gap-7">
-            <div class="bg-[#3A302D] w-full flex p-5 rounded-3xl">
-                <div class="w-1/2 flex justify-center">
-                    <img src="assets/icons/icon _records_.png" alt="" class="">
+        <div class="flex flex-col gap-8 text-pretty">
+            <div class="bg-[#3A302D] w-full h-44 flex rounded-3xl">
+                <div class="w-1/2 flex justify-center ">
+                    <img src="assets/icons/icon _records_.png" alt="" class="p-5">
                 </div>
-                <div class="w-1/2 flex flex-col gap-4 items-center text-center text-white px-16">
+                <div class="w-1/2 flex flex-col items-center justify-center text-center text-white px-16 ">
+                    <h2 class="font-bold tracking-wide text-xl ">LOGISTICS</h2>
+                    <p class="font-light text-lg ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy</p>
+                </div>
+            </div>
+            <div class="bg-[#3A302D] w-full h-44 flex rounded-3xl">
+                <div class="w-1/2 flex flex-col items-center justify-center text-center text-white px-16">
                     <h2 class="font-bold tracking-wide text-xl">LOGISTICS</h2>
                     <p class="font-light text-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                         Lorem Ipsum has been the industry's standard dummy</p>
                 </div>
-            </div>
-            <div class="bg-[#3A302D] w-full flex p-5 rounded-3xl">
-                <div class="w-1/2 flex flex-col gap-4 items-center text-center text-white px-16">
-                    <h2 class="font-bold tracking-wide text-xl">LOGISTICS</h2>
-                    <p class="font-light text-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry's standard dummy</p>
-                </div>
                 <div class="w-1/2 flex justify-center">
-                    <img src="assets/icons/icon _truck_.png" alt="" class="">
+                    <img src="assets/icons/icon _truck_.png" alt="" class="p-5">
                 </div>
             </div>
-            <div class="bg-[#3A302D] w-full flex p-5 rounded-3xl">
+            <div class="bg-[#3A302D] w-full h-44 flex rounded-3xl">
                 <div class="w-1/2 flex justify-center">
-                    <img src="assets/icons/pc.png" alt="" class="">
+                    <img src="assets/icons/pc.png" alt="" class="p-5">
                 </div>
-                <div class="w-1/2 flex flex-col gap-4 items-center text-center text-white px-16">
+                <div class="w-1/2 flex flex-col items-center justify-center text-center text-white px-16">
                     <h2 class="font-bold tracking-wide text-xl">LOGISTICS</h2>
                     <p class="font-light text-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                         Lorem Ipsum has been the industry's standard dummy</p>
                 </div>
             </div>
         </div>
+        <div class="absolute h-[450px] w-12 mt-20 flex justify-center ">
+            <span class="h-full bg-[#D9B01C] w-[1px] z-20"></span>
+            <div class="absolute h-full flex flex-col justify-between items-center bg-black">
+                <span class="h-2 w-2 rounded-full bg-[#D9B01C] ring-offset-[11px] ring-offset-[#3A302D] ring-1 ring-[#D9B01C]"></span>
+                <div class="h-10 w-10 rounded-full border border-[#D9B01C] flex items-center justify-center">
+                    <span class="h-2 w-2 bg-[#D9B01C] rounded-full"></span>
+                </div>
+                <div class="h-10 w-10 rounded-full border border-[#D9B01C] flex items-center justify-center">
+                    <span class="h-2 w-2 bg-[#D9B01C] rounded-full"></span>
+                </div>
+            </div>
+        </div>
+        <span class="h-10 w-10 rounded-full bg-[#D9B01C] ring-offset-[11px] ring-offset-[#3A302D] ring-1 ring-[#D9B01C]"></span>
     </section>
 
     <!-- CLIENTS PAGE -->
@@ -113,7 +123,7 @@
         </div>
         <p class="font-light text-5xl pb-5 tracking-widest">Pleasure to work with</p>
         <div class="w-full flex-nowrap ">
-            <div class="bg-white overflow-x-hidden relative">
+            <div class="bg-white overflow-x-auto relative scroll-bar">
                 <ul class="flex items-center justify-around md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
                     <li><img src="assets/icons/icon-cladtek.png" alt="icon-cladtek"></li>
                     <li><img src="assets/icons/icon-caterpillar.png" alt="icon-caterpillar"></li>
