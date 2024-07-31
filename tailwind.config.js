@@ -9,7 +9,6 @@ module.exports = {
         'cht-container': '0 2px 10px 2px rgb(0, 0, 0, 30%)',
       },
       animation: {
-        // 'infinite-scroll': 'marquee 25s linear infinite',
         'infinite-scroll': 'infinite-scroll 50s linear infinite',
       },
       keyframes: {
@@ -21,8 +20,13 @@ module.exports = {
         }
       },
       fontFamily: {
-        'sanss': ['Poppins', 'sans-serif'],
-        'body': ['Open Sans'],
+        // 'poppins': ['Poppins', 'sans-serif'],
+        // 'body': ['Open Sans'],
+        outfit: ['Outfit', 'sans-serif'], 
+      },
+      fontWeight: {
+        'kurus': 100,
+        'bold-ot': 600,
       }
     },
   },

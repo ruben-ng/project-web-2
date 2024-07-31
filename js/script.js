@@ -6,7 +6,6 @@
         trigger.addEventListener('click', function () {
             // Toggle visibility by adding/removing the 'hidden' class
             container.classList.toggle('hidden');
-            // console.log('hello');
         });
 
         // Optional: Click outside the popup to close it

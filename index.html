@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <script src="js/script.js"></script>
     <style>
@@ -65,45 +68,91 @@
     </section>
 
     <!-- SERVICES PAGE -->
-    <section class="bg-[#171714] h-screen px-32 relative">
-        <div class="flex justify-center py-4">
-            <h2 class="text-[#FFFFF0] text-7xl tracking-wide">OUR<span class="text-[#D4AF37] text-7xl font-bold ml-3 tracking-wide">SERVICE</span></h2>
-            <!-- line mid -->
-            <!-- <span class="absolute border h-full"></span> -->
+    <section class="bg-[#171714] hs-[50rem] px-52 relative flex flex-col items-center justify-center gap-7 font-outfit">
+        <div class="flex justify-center">
+            <h2 class="text-[#FFFFF0] text-7xl font-thin tracking-wide ">OUR<span class="text-[#D4AF37] text-7xl font-bold-ot ml-3 tracking-wide">SERVICE</span></h2> 
         </div>
-        
-        <div class="flex flex-col gap-7">
-            <div class="bg-[#3A302D] w-full flex p-5 rounded-3xl">
-                <div class="w-1/2 flex justify-center">
-                    <img src="assets/icons/icon _records_.png" alt="" class="">
+        <div class="bg-slatse-500 h-full w-full msax-w-xl">
+            <div class="w-full flex rounded-3xl">
+                <div class=" w-1/2 ">
+                    <img src="assets/image/doc-2.jpg" alt="" class="p-5 " data-aos="fade-right" data-aos-duration="2000" width="1200" height="1200">
                 </div>
-                <div class="w-1/2 flex flex-col gap-4 items-center text-center text-white px-16">
+                <div class="w-1/2 flex flex-col text-pretty text-white ">
+                    <h2 class="font-bold tracking-wide text-xl">Documents Agency</h2>
+                    <p class="font-thin text-base tracking-wider from-neutral-200">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+            </div>
+            <div class="bg-[#3A302sD] w-full h-s44 flex rounded-3xl">
+                <div class="w-1/2 flex flex-col text-pretty text-white">
+                    <h2 class="font-bold tracking-wide text-xl">Transportation Logistics</h2>
+                    <p class="font-light text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="w-1/2">
+                    <img src="assets/image/contrail-ocean-ship-carrying-container-1300x1300.jpg" alt="" class="p-5" data-aos="fade-left" data-aos-duration="2000" width="1300" height="1300">
+                </div>
+            </div>
+            <div class="w-full flex rounded-3xl">
+                <div class=" w-1/2">
+                    <img src="assets/image/it-3.jpg" alt="" class="p-5" data-aos="fade-right" data-aos-duration="2000" width="1300" height="1300">
+                </div>
+                <div class="w-1/2 flex flex-col text-pretty text-white">
+                    <h2 class="font-bold tracking-wide text-xl ">Information Technology</h2>
+                    <p class="font-light text-lg ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="flex flex-col gap-8 text-pretty">
+            <div class="bg-[#3A302D] w-full h-44 flex rounded-3xl">
+                <div class="w-1/2 flex justify-center ">
+                    <img src="assets/icons/icon _records_.png" alt="" class="p-5">
+                </div>
+                <div class="w-1/2 flex flex-col items-center justify-center text-center text-white px-16 ">
+                    <h2 class="font-bold tracking-wide text-xl ">LOGISTICS</h2>
+                    <p class="font-light text-lg ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy</p>
+                </div>
+            </div>
+            <div class="bg-[#3A302D] w-full h-44 flex rounded-3xl">
+                <div class="w-1/2 flex flex-col items-center justify-center text-center text-white px-16">
                     <h2 class="font-bold tracking-wide text-xl">LOGISTICS</h2>
                     <p class="font-light text-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                         Lorem Ipsum has been the industry's standard dummy</p>
                 </div>
-            </div>
-            <div class="bg-[#3A302D] w-full flex p-5 rounded-3xl">
-                <div class="w-1/2 flex flex-col gap-4 items-center text-center text-white px-16">
-                    <h2 class="font-bold tracking-wide text-xl">LOGISTICS</h2>
-                    <p class="font-light text-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry's standard dummy</p>
-                </div>
                 <div class="w-1/2 flex justify-center">
-                    <img src="assets/icons/icon _truck_.png" alt="" class="">
+                    <img src="assets/icons/icon _truck_.png" alt="" class="p-5">
                 </div>
             </div>
-            <div class="bg-[#3A302D] w-full flex p-5 rounded-3xl">
+            <div class="bg-[#3A302D] w-full h-44 flex rounded-3xl">
                 <div class="w-1/2 flex justify-center">
-                    <img src="assets/icons/pc.png" alt="" class="">
+                    <img src="assets/icons/pc.png" alt="" class="p-5">
                 </div>
-                <div class="w-1/2 flex flex-col gap-4 items-center text-center text-white px-16">
+                <div class="w-1/2 flex flex-col items-center justify-center text-center text-white px-16">
                     <h2 class="font-bold tracking-wide text-xl">LOGISTICS</h2>
                     <p class="font-light text-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                         Lorem Ipsum has been the industry's standard dummy</p>
                 </div>
             </div>
         </div>
+        <div class="absolute h-[450px] w-12 mt-20 flex justify-center ">
+            <span class="h-full bg-[#D9B01C] w-[1px] z-20"></span>
+            <div class="absolute h-full flex flex-col justify-between items-center bg-black">
+                <span class="h-2 w-2 rounded-full bg-[#D9B01C] ring-offset-[11px] ring-offset-[#3A302D] ring-1 ring-[#D9B01C]"></span>
+                <div class="h-10 w-10 rounded-full border border-[#D9B01C] flex items-center justify-center">
+                    <span class="h-2 w-2 bg-[#D9B01C] rounded-full"></span>
+                </div>
+                <div class="h-10 w-10 rounded-full border border-[#D9B01C] flex items-center justify-center">
+                    <span class="h-2 w-2 bg-[#D9B01C] rounded-full"></span>
+                </div>
+            </div>
+        </div>
+        <span class="h-10 w-10 rounded-full bg-[#D9B01C] ring-offset-[11px] ring-offset-[#3A302D] ring-1 ring-[#D9B01C]"></span> -->
     </section>
 
     <!-- CLIENTS PAGE -->
@@ -113,7 +162,7 @@
         </div>
         <p class="font-light text-5xl pb-5 tracking-widest">Pleasure to work with</p>
         <div class="w-full flex-nowrap ">
-            <div class="bg-white overflow-x-hidden relative">
+            <div class="bg-white overflow-x-auto relative scroll-bar">
                 <ul class="flex items-center justify-around md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
                     <li><img src="assets/icons/icon-cladtek.png" alt="icon-cladtek"></li>
                     <li><img src="assets/icons/icon-caterpillar.png" alt="icon-caterpillar"></li>
@@ -280,5 +329,10 @@
             &copy; 2024 Document Agency. All rights reserved.
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
