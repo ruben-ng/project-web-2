@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["index.html"],
+  content: ["./**/*.html"],
   theme: {
     extend: {
       screens:{
@@ -25,17 +25,15 @@ module.exports = {
           // to: { transform: 'translateX(-100%)' },
         }
       },
-      fontFamily: {
-        // 'poppins': ['Poppins', 'sans-serif'],
-        // 'body': ['Open Sans'],
-        outfit: ['Outfit', 'sans-serif'],
-        jost: ['Jost'],
-        inter: ['Inter', 'sans-serif']
-      },
       fontWeight: {
         'kurus': 100,
         'bold-ot': 600,
-      }
+      },
+      fontFamily: {
+        ot: ['Outfit'],
+        opensans: ['Open Sans'],
+        inter: ['Inter'],
+      },
     },
   },
 
