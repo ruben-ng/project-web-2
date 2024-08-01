@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./**/*.html"],
+  content: [
+    "./**/*.html",
+    "./node_modules/tw-elements/js/**/*.js"
+  ],
   theme: {
     extend: {
       screens:{
@@ -37,5 +40,8 @@ module.exports = {
     },
   },
 
-  plugins: [],
+  plugins: [
+    require("tw-elements/plugin.cjs")
+  ],
+    darkMode: "class"
 }
